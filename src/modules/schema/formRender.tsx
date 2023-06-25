@@ -5,7 +5,7 @@ import React from "react";
 export default function FormRenderDemo(){
     const form = useForm();
 
-    const onFinish = (formData) => {
+    const onFinish = (formData:FormData) => {
         console.log('formData:', formData);
     };
     return (
